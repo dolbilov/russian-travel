@@ -30,6 +30,7 @@
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__heading/cover__heading.css);
 @import url(../blocks/cover/__subheading/cover__subheading.css);
+@import url(../blocks/cover/__subheading-link/cover__subheading-link.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links/footer__links.css);

@@ -2,7 +2,7 @@
   box-sizing: border-box;
   max-width: 1280px;
   width: 100%;
-  padding: 0 48px;
+  padding: 245px 48px;
 
   display: flex;
   flex-direction: column;
@@ -17,4 +17,25 @@
 .cover:hover {
   background: linear-gradient(rgba(42, 44, 47, 0.8), rgba(42, 44, 47, 0.8)),
     url(../../images/cover-trains.jpg) no-repeat center center / cover;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    padding-top: 195px;
+    padding-bottom: 195px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover {
+    padding-top: 115px;
+    padding-bottom: 115px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+    padding-top: 33px;
+    padding-bottom: 33px;
+  }
 }
