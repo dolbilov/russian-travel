@@ -1,6 +1,24 @@
 .places__card {
   display: grid;
   grid-template: repeat(2, auto) / minmax(auto, 460px) minmax(auto, 484px);
-  grid-auto-flow: column;
   gap: 48px 40px;
+}
+
+@media screen and (max-width: 1279px) {
+  .places__card {
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places__card {
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places__card {
+    grid-template: repeat(4, auto) / auto;
+    gap: 32px;
+  }
 }

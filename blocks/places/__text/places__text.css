@@ -10,3 +10,9 @@
     gap: 25px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .places__text {
+    padding: 0 16px;
+  }
+}

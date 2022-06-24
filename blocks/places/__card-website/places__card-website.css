@@ -5,3 +5,9 @@
   flex-direction: column;
   gap: 12px;
 }
+
+@media screen and (max-width: 767px) {
+  .places__card-website {
+    padding: 0 16px;
+  }
+}
