@@ -21,21 +21,18 @@
 
 @media screen and (max-width: 1279px) {
   .cover {
-    padding-top: 195px;
-    padding-bottom: 195px;
+    padding: 195px 0;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover {
-    padding-top: 115px;
-    padding-bottom: 115px;
+    padding: 115px 0;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover {
-    padding-top: 33px;
-    padding-bottom: 33px;
+    padding: 33px 0;
   }
 }
