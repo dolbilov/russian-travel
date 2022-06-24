@@ -14,5 +14,6 @@
   .intro__heading {
     font-size: 32px;
     line-height: 35px;
+    max-width: 251px;
   }
 }

@@ -13,6 +13,8 @@
   .places__card-title {
     font-size: 42px;
     line-height: 46px;
+
+    max-width: 332px;
   }
 }
 
