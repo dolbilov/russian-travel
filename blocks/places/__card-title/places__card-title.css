@@ -1,0 +1,10 @@
+.places__card-title {
+  font-family: 'Inter';
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  color: #fff;
+
+  margin: 0;
+  padding: 0;
+}

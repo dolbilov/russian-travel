@@ -1,0 +1,6 @@
+.places__card {
+  display: grid;
+  grid-template: repeat(2, auto) / minmax(auto, 460px) minmax(auto, 484px);
+  grid-auto-flow: column;
+  gap: 48px 40px;
+}
