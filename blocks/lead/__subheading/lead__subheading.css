@@ -1,0 +1,29 @@
+.lead__subheading {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #fff;
+
+  max-width: 640px;
+  margin: 0;
+  padding: 0;
+
+  margin-bottom: 64px;
+}
+
+@media screen and (max-width: 1279px) {
+  .lead__subheading {
+    margin-bottom: 56px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__subheading {
+    font-size: 16px;
+    line-height: 20px;
+
+    margin-bottom: 40px;
+  }
+}
