@@ -1,0 +1,20 @@
+.cover {
+  box-sizing: border-box;
+  max-width: 1280px;
+  width: 100%;
+  padding: 0 48px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)),
+    url(../../images/cover-trains.jpg) no-repeat center center / cover;
+  transition: all 0.2s ease-in-out;
+}
+
+.cover:hover {
+  background: linear-gradient(rgba(42, 44, 47, 0.8), rgba(42, 44, 47, 0.8)),
+    url(../../images/cover-trains.jpg) no-repeat center center / cover;
+}

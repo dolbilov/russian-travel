@@ -1,0 +1,19 @@
+.cover__subheading {
+  margin: 0;
+  padding: 0;
+  max-width: 360px;
+
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .cover__subheading {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

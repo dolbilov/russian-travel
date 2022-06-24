@@ -25,6 +25,12 @@
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__photo/photo-grid__photo.css);
 
+/* This will be import for places section */
+
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__heading/cover__heading.css);
+@import url(../blocks/cover/__subheading/cover__subheading.css);
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
