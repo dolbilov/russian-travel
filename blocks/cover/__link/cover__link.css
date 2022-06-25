@@ -1,0 +1,28 @@
+.cover__link {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 245px 0;
+  position: relative;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover__link {
+    padding: 195px 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover__link {
+    padding: 115px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__link {
+    padding: 33px 0;
+  }
+}

@@ -39,6 +39,7 @@
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/_margins/cover_margins.css);
+@import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__heading/cover__heading.css);
 @import url(../blocks/cover/__subheading/cover__subheading.css);
 @import url(../blocks/cover/__subheading-link/cover__subheading-link.css);
