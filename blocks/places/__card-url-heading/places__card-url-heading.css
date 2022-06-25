@@ -1,11 +1,11 @@
 .places__card-url-heading {
-  font-family: 'Inter', Arial, sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 12px;
-  letter-spacing: 2px;
   color: #aaa;
-
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 12px;
   margin: 0;
   padding: 0;
+  text-transform: uppercase;
 }
