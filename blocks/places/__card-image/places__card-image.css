@@ -1,6 +1,7 @@
 .places__card-image {
   height: 460px;
   width: 460px;
+  justify-self: center;
 }
 
 @media screen and (max-width: 1279px) {
