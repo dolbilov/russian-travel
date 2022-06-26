@@ -20,5 +20,6 @@
     align-items: start;
     flex-direction: column;
     gap: 48px;
+    padding: 64px 16px 24px;
   }
 }

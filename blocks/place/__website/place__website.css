@@ -1,4 +1,4 @@
-.places__card-website {
+.place__website {
   align-self: end;
   display: flex;
   flex-direction: column;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .places__card-website {
+  .place__website {
     padding: 0 16px;
   }
 }

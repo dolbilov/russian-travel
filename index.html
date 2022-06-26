@@ -16,14 +16,12 @@
         alt="Логотип Россия."
         class="header__logo"
       />
-      <nav>
-        <ul class="header__links">
-          <li>
-            <a href="#" class="header__link header__link_active link">Ru</a>
-          </li>
-          <li><a href="#" class="header__link link">En</a></li>
-        </ul>
-      </nav>
+      <ul class="header__links">
+        <li>
+          <a href="#" class="header__link header__link_active link">Ru</a>
+        </li>
+        <li><a href="#" class="header__link link">En</a></li>
+      </ul>
     </header>
 
     <main>
@@ -32,14 +30,16 @@
         <p class="lead__subheading">
           Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а&nbsp;здесь.
         </p>
-
-        <img
-          src="./images/lead-polka.jpg"
-          alt="Верхняя полка в поезде с картой России."
-          class="lead__photo"
-        />
-
-        <p class="lead__caption">Ваша полка&nbsp;&mdash; верхняя</p>
+        <figure class="lead__figure">
+          <img
+            src="./images/lead-polka.jpg"
+            alt="Верхняя полка в поезде с картой России."
+            class="lead__photo"
+          />
+          <figcaption class="lead__caption">
+            Ваша полка&nbsp;&mdash; верхняя
+          </figcaption>
+        </figure>
       </section>
       <!-- /.lead -->
 
@@ -100,101 +100,103 @@
       <!-- /.intro -->
 
       <section class="photo-grid" aria-label="Фотографии мест.">
-        <img
-          src="./images/photo-grid/train.jpg"
-          alt="Поезд."
-          class="photo-grid__photo"
-        />
-        <img
-          src="./images/photo-grid/atharva-tulsi.jpg"
-          alt="Вершина горы."
-          class="photo-grid__photo"
-        />
-        <img
-          src="./images/photo-grid/tuman.jpg"
-          alt="Собака на стоге сена."
-          class="photo-grid__photo"
-        />
-        <img
-          src="./images/photo-grid/sochi.jpg"
-          alt="Туманный лес в Сочи."
-          class="photo-grid__photo"
-        />
-        <img
-          src="./images/photo-grid/arisa.jpg"
-          alt="Колесо машины на льду."
-          class="photo-grid__photo"
-        />
-        <img
-          src="./images/photo-grid/baikal.jpg"
-          alt="Байкал."
-          class="photo-grid__photo"
-        />
-        <img
-          src="./images/photo-grid/elbrus.jpg"
-          alt="Эльбрус"
-          class="photo-grid__photo"
-        />
-        <img
-          src="./images/photo-grid/kondratiev.jpg"
-          alt="Знак пешеходного перехода на фоне."
-          class="photo-grid__photo"
-        />
-        <img
-          src="./images/photo-grid/kamchatka-1.jpg"
-          alt="Туманные предгорья на Камчатке."
-          class="photo-grid__photo"
-        />
-        <img
-          src="./images/photo-grid/kamchatka-2.jpg"
-          alt="Гора на Камчатке."
-          class="photo-grid__photo"
-        />
-        <img
-          src="./images/photo-grid/baikal-2.jpg"
-          alt="Байкал."
-          class="photo-grid__photo"
-        />
-        <img
-          src="./images/photo-grid/ergaki.jpg"
-          alt="Горный хребет Ергаки."
-          class="photo-grid__photo"
-        />
+        <ul class="photo-grid__photos">
+          <img
+            src="./images/photo-grid/train.jpg"
+            alt="Поезд."
+            class="photo-grid__photo"
+          />
+          <img
+            src="./images/photo-grid/atharva-tulsi.jpg"
+            alt="Вершина горы."
+            class="photo-grid__photo"
+          />
+          <img
+            src="./images/photo-grid/tuman.jpg"
+            alt="Собака на стоге сена."
+            class="photo-grid__photo"
+          />
+          <img
+            src="./images/photo-grid/sochi.jpg"
+            alt="Туманный лес в Сочи."
+            class="photo-grid__photo"
+          />
+          <img
+            src="./images/photo-grid/arisa.jpg"
+            alt="Колесо машины на льду."
+            class="photo-grid__photo"
+          />
+          <img
+            src="./images/photo-grid/baikal.jpg"
+            alt="Байкал."
+            class="photo-grid__photo"
+          />
+          <img
+            src="./images/photo-grid/elbrus.jpg"
+            alt="Эльбрус"
+            class="photo-grid__photo"
+          />
+          <img
+            src="./images/photo-grid/kondratiev.jpg"
+            alt="Знак пешеходного перехода на фоне."
+            class="photo-grid__photo"
+          />
+          <img
+            src="./images/photo-grid/kamchatka-1.jpg"
+            alt="Туманные предгорья на Камчатке."
+            class="photo-grid__photo"
+          />
+          <img
+            src="./images/photo-grid/kamchatka-2.jpg"
+            alt="Гора на Камчатке."
+            class="photo-grid__photo"
+          />
+          <img
+            src="./images/photo-grid/baikal-2.jpg"
+            alt="Байкал."
+            class="photo-grid__photo"
+          />
+          <img
+            src="./images/photo-grid/ergaki.jpg"
+            alt="Горный хребет Ергаки."
+            class="photo-grid__photo"
+          />
+        </ul>
+        <!-- /.photo-grid__photos -->
       </section>
       <!-- /.photo-grid -->
 
       <section class="places">
         <!-- Card 1 -->
-        <div class="places__card">
-          <h2 class="places__card-title">Куршская коса</h2>
-
-          <div class="places__card-website">
-            <p class="places__card-url-heading">url</p>
+        <article class="place">
+          <h2 class="place__title">Куршская коса</h2>
+          <div class="place__website">
+            <p class="place__url-heading">url</p>
             <a
               href="http://park-kosa.ru"
               target="_blank"
               rel="noopener noreferrer"
-              class="places__card-link link"
+              class="place__link link"
               >park-kosa.ru</a
             >
           </div>
-          <!-- /.places__card-website -->
+          <!-- /.place__website -->
           <img
             src="./images/places/kosa.jpg"
             alt="Куршская коса."
-            class="places__card-image"
+            class="place__image"
           />
-          <div class="places__text">
-            <p class="places__paragraph">
+          <div class="place__text">
+            <p class="place__paragraph">
               Здесь, посреди лесов и&nbsp;песчаных дюн, вы&nbsp;сможете увидеть
               два водных горизонта&nbsp;&mdash; спокойного Куршского залива
               с&nbsp;одной стороны и подёрнутого рябью волн Балтийского моря
               с&nbsp;другой. Уникальная природная зона на&nbsp;краю российского
               анклава.
             </p>
-            <p class="places__paragraph">
-              На&nbsp;этом Калининградская область не&nbsp;заканчивается. Для
-              путешественника и&nbsp;исследователя там&nbsp;же
+            <p class="place__paragraph">
+              На&nbsp;этом Калининградская область не&nbsp;заканчивается.
+              Для&nbsp;путешественника и&nbsp;исследователя там&nbsp;же
               по&nbsp;соседству&nbsp;&mdash; самая западная точка России,
               Балтийская коса,&nbsp;&mdash; и&nbsp;немецкое наследие россыпи
               небольших приморских городов. Атмосфера здешних мест исключает
@@ -202,71 +204,71 @@
               прохладного моря.
             </p>
           </div>
-        </div>
+        </article>
         <!-- /.places__card -->
 
         <!-- Card 2 -->
-        <div class="places__card">
-          <h2 class="places__card-title">Кольский</h2>
+        <article class="place">
+          <h2 class="place__title">Кольский</h2>
 
-          <div class="places__card-website">
-            <p class="places__card-url-heading">url</p>
+          <div class="place__website">
+            <p class="place__url-heading">url</p>
             <a
               href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
               target="_blank"
               rel="noopener noreferrer"
-              class="places__card-link link"
+              class="place__link link"
               >National Geographic</a
             >
           </div>
-          <!-- /.places__card-website -->
+          <!-- /.place__website -->
           <img
             src="./images/places/kolsky.jpg"
             alt="Кольский полуостров"
-            class="places__card-image"
+            class="place__image"
           />
-          <div class="places__text">
-            <p class="places__paragraph">
+          <div class="place__text">
+            <p class="place__paragraph">
               Почти весь полуостров находится за&nbsp;Полярным кругом. Саамская
               тундра, от&nbsp;которой на&nbsp;юг&nbsp;&mdash; тайга,
               а&nbsp;на&nbsp;север&nbsp;&mdash; Ледовитый океан, прикидывающийся
               Баренцевым морем.
             </p>
-            <p class="places__paragraph">
+            <p class="place__paragraph">
               Возможно, вы&nbsp;смотрели Звягинцева и&nbsp;даже слышали историю
               арктического фестиваля в&nbsp;Териберке. Возможно, слово
               &laquo;Хибины&raquo; не осталось под снегом школьных воспоминаний
-              об&nbsp;уроках географии. Возможно, вы&nbsp;не&nbsp;интересовались
+              об&nbsp;уроках географии. Возможно, вы&nbsp;не интересовались
               пронизывающей земную кору сверхглубокой скважиной,
               а&nbsp;от&nbsp;апатитов вас давно накрывает апатия. Но&nbsp;ваша
               мечта увидеть северное сияние начинает сбываться с&nbsp;билетом
               в&nbsp;Мурманск.
             </p>
           </div>
-        </div>
+        </article>
         <!-- /.places__card -->
 
         <!-- Card 3 -->
-        <div class="places__card">
-          <h2 class="places__card-title">Алтай</h2>
-          <div class="places__card-website">
-            <p class="places__card-url-heading">url</p>
+        <article class="place">
+          <h2 class="place__title">Алтай</h2>
+          <div class="place__website">
+            <p class="place__url-heading">url</p>
             <a
               href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
               target="_blank"
               rel="noopener noreferrer"
-              class="places__card-link link"
+              class="place__link link"
               >Facebook</a
             >
           </div>
-          <!-- /.places__card-website -->
+          <!-- /.place__website -->
           <img
             src="./images/places/altai.jpg"
             alt="Алтай."
-            class="places__card-image"
+            class="place__image"
           />
-          <div class="places__text">
-            <p class="places__paragraph">
+          <div class="place__text">
+            <p class="place__paragraph">
               Алтай&nbsp;&mdash; одно из&nbsp;красивейших мест в&nbsp;России.
               В&nbsp;первую очередь из-за гор: если ехать вдоль хребта,
               вы&nbsp;увидите склоны, усыпанные соснами, горные реки
@@ -274,7 +276,7 @@
               сможете познакомиться с&nbsp;невидимым чудом здешних мест &mdash;
               горным воздухом.
             </p>
-            <p class="places__paragraph">
+            <p class="place__paragraph">
               Климат на&nbsp;Алтае умеренный, поэтому ехать сюда лучше всего
               летом. Так вы&nbsp;увидите всё разнообразие местной флоры
               и&nbsp;фауны. По&nbsp;лесам Алтая бродят лоси, над хребтами летают
@@ -282,35 +284,35 @@
               манулы&nbsp;&mdash; тоже обитатели Алтайского края.
             </p>
           </div>
-        </div>
+        </article>
         <!-- /.places__card -->
 
         <!-- Card 4 -->
-        <div class="places__card">
-          <h2 class="places__card-title">Зимний Байкал</h2>
-          <div class="places__card-website">
-            <p class="places__card-url-heading">url</p>
+        <article class="place">
+          <h2 class="place__title">Зимний Байкал</h2>
+          <div class="place__website">
+            <p class="place__url-heading">url</p>
             <a
               href="https://vk.com/baikalmile"
               target="_blank"
               rel="noopener noreferrer"
-              class="places__card-link link"
+              class="place__link link"
               >https://vk.com/baikalmile</a
             >
           </div>
-          <!-- /.places__card-website -->
+          <!-- /.place__website -->
           <img
             src="./images/places/winter-baikal.jpg"
             alt="Зимний Байкал."
-            class="places__card-image"
+            class="place__image"
           />
-          <div class="places__text">
-            <p class="places__paragraph">
+          <div class="place__text">
+            <p class="place__paragraph">
               Всем известен Байкал как крупнейшее озеро в&nbsp;мире. Многие
               также знают, что это самый большой источник пресной воды
               и&nbsp;одно из красивейших мест в&nbsp;России.
             </p>
-            <p class="places__paragraph">
+            <p class="place__paragraph">
               Конечно, это всё так. Но&nbsp;Байкал ещё идеальное место для
               соревнований по&nbsp;скийорингу. Это такой вид спорта, когда
               лыжник привязывает себя к&nbsp;мотоциклу, и&nbsp;тандем старается
@@ -320,30 +322,30 @@
               197.011&nbsp;км/ч.
             </p>
           </div>
-        </div>
+        </article>
         <!-- /.places__card -->
 
         <!-- Card 5 -->
-        <div class="places__card">
-          <h2 class="places__card-title">Карелия</h2>
-          <div class="places__card-website">
-            <p class="places__card-url-heading">url</p>
+        <article class="place">
+          <h2 class="place__title">Карелия</h2>
+          <div class="place__website">
+            <p class="place__url-heading">url</p>
             <a
               href="http://vodlozero.ru"
               target="_blank"
               rel="noopener noreferrer"
-              class="places__card-link link"
+              class="place__link link"
               >http://vodlozero.ru/</a
             >
           </div>
-          <!-- /.places__card-website -->
+          <!-- /.place__website -->
           <img
             src="./images/places/karelia.jpg"
             alt="Карелия."
-            class="places__card-image"
+            class="place__image"
           />
-          <div class="places__text">
-            <p class="places__paragraph">
+          <div class="place__text">
+            <p class="place__paragraph">
               Сибирь заканчивается не&nbsp;на&nbsp;Урале, а&nbsp;в&nbsp;Карелии:
               образующая тайгу сибирская лиственница не&nbsp;растёт западнее
               Водлозера. Зато здесь она вымахивает
@@ -357,12 +359,12 @@
               Чтобы все знали, кто тут хозяин.
             </p>
           </div>
-        </div>
+        </article>
         <!-- /.places__card -->
       </section>
       <!-- /.places -->
 
-      <section class="cover cover_margins" aria-label="До Байкала «на собаках»">
+      <section class="cover" aria-label="До Байкала «на собаках»">
         <a
           href="https://stampsy.com/na-elektrichkakh-do-baikala"
           target="_blank"

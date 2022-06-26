@@ -1,25 +1,25 @@
-.places__card {
+.place {
   display: grid;
   gap: 48px 40px;
   grid-template: repeat(2, auto) / minmax(auto, 460px) minmax(auto, 484px);
 }
 
 @media screen and (max-width: 1279px) {
-  .places__card {
+  .place {
     gap: 48px 32px;
     grid-template: repeat(2, auto) / minmax(auto, 440px) minmax(auto, 456px);
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .places__card {
+  .place {
     gap: 48px 28px;
     grid-template: repeat(2, auto) / minmax(auto, 340px) minmax(auto, 352px);
   }
 }
 
 @media screen and (max-width: 767px) {
-  .places__card {
+  .place {
     gap: 32px;
     grid-template: repeat(4, auto) / auto;
   }

@@ -1,8 +1,9 @@
-.places__card-link {
+.place__link {
   color: #fff;
   font-family: 'Inter', Arial, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
   text-decoration-line: underline;
+  width: fit-content;
 }
