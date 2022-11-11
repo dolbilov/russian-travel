@@ -11,9 +11,8 @@ Versions available for 4 different resolutions:
 - from 768px to 1024px
 - up to 768px
 
-## **Tecnhology stack**
+## **Stack**
 
-- HTML
 - CSS
 - BEM Nested methodology
 - FlexBox
